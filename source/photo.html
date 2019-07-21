@@ -7,10 +7,10 @@
 <body>
   <header class="page-header">
     <ul class="page-header__list">
-      <li class="page-header__button"><a href="#" class="page-header__button__link">главная</a><button class="header__close button__close"></button></li>
-      <li class="page-header__button"><a href="#" class="page-header__button__link">фото и видео</a></li>
-      <li class="page-header__button"><a href="#" class="page-header__button__link">Форма отзыва</a></li>
-      <li class="page-header__button"><a href="#" class="page-header__button__link">HTML academy</a></li>
+      <li class="page-header__button"><a href="#" class="page-header__link">главная</a><button class="header__close button__close"></button></li>
+      <li class="page-header__button"><a href="#" class="page-header__link">фото и видео</a></li>
+      <li class="page-header__button"><a href="#" class="page-header__link">Форма отзыва</a></li>
+      <li class="page-header__button"><a href="#" class="page-header__link">HTML academy</a></li>
     </ul>
     <a class="page-header__logo" href="#"><img src="http://placehold.it/150x100" class="page-header__logo-image"></a>
     <button class="page-header__toggle"></button>
@@ -18,44 +18,44 @@
   <main class="page-photo">
     <section class="photo-info">
       <img src="http://placehold.it/150x100"class="photo-info__info-image">
-      <h2 class="photo-info__info-header">Фото и видео/h2>
-      <p class="photo-info__info-description">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.</p>
+      <h2 class="photo-info__header">Фото и видео/h2>
+      <p class="photo-info__description">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.</p>
     </section>
-    <section class="photo-list">
-      <fieldset class="photo-list__photo-fieldset">
-        <img src="http://placehold.it/150x100" class="photo-list__photo-image">
-        <figcaption class="photo-list__photo-caption">неродные просторы</figcaption>
-        <address class="photo-list__photo-name-info">Автор фото:<span class="photo-list__photo-name">Борис</span></address>
-        <div class="photo-list__photo-like">
-          <button class="photo-like-button">лайк</button>
-          <p class="photo-list__photo-like-quantity">1350</p>
+    <section class="gallery">
+      <fieldset class="gallery__fieldset">
+        <img src="http://placehold.it/150x100" class="gallery__image">
+        <figcaption class="gallery__caption">неродные просторы</figcaption>
+        <address class="gallery__name-info">Автор фото:<span class="gallery__name">Борис</span></address>
+        <div class="gallery__like">
+          <button class="gallery__like-button">лайк</button>
+          <p class="gallery__like-quantity">1350</p>
         </div>
       </fieldset>
-      <fieldset class="photo-list__photo-fieldset">
-        <img src="http://placehold.it/150x100" class="photo-list__photo-image">
-        <figcaption class="photo-list__photo-caption">Местная растительность</figcaption>
-        <address class="photo-list__photo-name-info">Автор фото: <span class="photo-list__photo-name">Сергей</span></address>
-        <div class="photo-list__photo-like">
-          <button class="photo-like-button">лайк</button>
-          <p class="photo-list__photo-like-quantity">143</p>
+      <fieldset class="gallery__fieldset">
+        <img src="http://placehold.it/150x100" class="gallery__image">
+        <figcaption class="gallery__caption">Местная растительность</figcaption>
+        <address class="gallery__name-info">Автор фото: <span class="gallery__name">Сергей</span></address>
+        <div class="gallery__like">
+          <button class="gallery__like-button">лайк</button>
+          <p class="gallery__like-quantity">143</p>
         </div>
       </fieldset>
-      <fieldset class="photo-list__photo-fieldset">
-        <img src="http://placehold.it/150x100" class="photo-list__photo-image">
-        <figcaption class="photo-list__photo-caption">Дорога на север</figcaption>
-        <address class="photo-list__photo-name-info">Автор фото: <span class="photo-list__photo-name">Петр</span></address>
-        <div class="photo-list__photo-like">
-          <button class="photo-like-button">лайк</button>
-          <p class="photo-list__photo-like-quantity">96</p>
+      <fieldset class="gallery__fieldset">
+        <img src="http://placehold.it/150x100" class="gallery__image">
+        <figcaption class="gallery__caption">Дорога на север</figcaption>
+        <address class="gallery__name-info">Автор фото: <span class="gallery__name">Петр</span></address>
+        <div class="gallery__like">
+          <button class="gallery__like-button">лайк</button>
+          <p class="gallery__like-quantity">96</p>
         </div>
       </fieldset>
-      <fieldset class="photo-list__photo-fieldset">
-        <img src="http://placehold.it/150x100" class="photo-list__photo-image">
-        <figcaption class="photo-list__photo-caption">Мост дьявола</figcaption>
-        <address class="photo-list__photo-name-info">Автор фото: <span class="photo-list__photo-name">Антон</span></address>
-        <div class="photo-list__photo-like">
-          <button class="photo-like-button">лайк</button>
-          <p class="photo-list__photo-like-quantity">254</p>
+      <fieldset class="gallery__fieldset">
+        <img src="http://placehold.it/150x100" class="gallery__image">
+        <figcaption class="gallery__caption">Мост дьявола</figcaption>
+        <address class="gallery__name-info">Автор фото: <span class=gallery__name">Антон</span></address>
+        <div class="gallery__like">
+          <button class="gallery__like-button">лайк</button>
+          <p class="gallery__like-quantity">254</p>
         </div>
       </fieldset>
     </section>
@@ -71,13 +71,13 @@
     </section>
     <ul class="page-footer__social-btn-list">
       <li class="social-btn">
-        <a href="#" class="social-btn--twitter">Мы в твиттере</a>
+        <a href="#" class="social__btn btn--twitter">Мы в твиттере</a>
       </li>
       <li class="social-btn">
-        <a href="#" class="social-btn--facebook">Мы в фейсбуке</a>
+        <a href="#" class="social__btn btn--facebook">Мы в фейсбуке</a>
       </li>
       <li class="social-btn">
-        <a href="#" class="social-btn--youtube">Мы на youtube</a>
+        <a href="#" class="social__btn btn--youtube">Мы на youtube</a>
       </li>
     </ul>
     <section class="page-footer__copyright">

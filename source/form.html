@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Academy: Седона</title>
+</head>
+<body>
+  <header class="page-header">
+    <ul class="page-header__list">
+      <li class="page-header__button"><a href="#" class="page-header__link">главная</a><button class="header__close button__close"></button></li>
+      <li class="page-header__button"><a href="#" class="page-header__link">фото и видео</a></li>
+      <li class="page-header__button"><a href="#" class="page-header__link">Форма отзыва</a></li>
+      <li class="page-header__button"><a href="#" class="page-header__link">HTML academy</a></li>
+    </ul>
+    <a class="page-header__logo" href="#"><img src="http://placehold.it/150x100" class="page-header__logo-image"></a>
+    <button class="page-header__toggle"></button>
+  </header>
+  <main class="page-form">
+    <section class="form-info">
+      <img src="http://placehold.it/150x100"class="form-info__info-image">
+      <h2 class="form-info__info-header">Оставьте свой отзыв</h2>
+      <p class="form-info__info-description">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+    </section>
+    <section class="page-forms">
+      <form action="" method="get" class="page-forms__forms-main">
+        <fieldset class="page-forms__form-fieldset form-full-name">
+          <legend class="page-forms__form-legend">Представьтесь:</legend>
+          <label class="page-forms__form-label" for="name">ИМЯ*:</label>
+          <input type="text" name="name" id="name" class="page-forms__form-input form-input--name" placeholder="Петр" required>
+          <label class="page-forms__form-label" for="surname">ФАМИЛИЯ*:</label>
+          <input type="text" name="surname" id="surname" class="page-forms__form-input form-input--surname" placeholder="Иванов" required>
+          <label class="page-forms__form-label" for="patronymic">Отчество:</label>
+          <input type="text" name="patronymic" id="patronymic" class="page-forms__form-input form-input--patronymic" placeholder="Александрович">
+        </fieldset>
+        <fieldset class="page-forms__form-fieldset form-contacts">
+          <legend class="page-forms__form-legend">Контактная информация:</legend>
+          <label class="page-forms__form-label" for="phone">Контактный телефон*:</label>
+          <input type="tel" name="name" id="phone" class="page-forms__form-input form-input--phone" placeholder="Введите телефон" required>
+          <label class="page-forms__form-label" for="email">Электронная почта*:</label>
+          <input type="email" name="surname" id="email" class="page-forms__form-input form-input--email" placeholder="Введите e-mail" required>
+        </fieldset>
+        <fieldset class="page-forms__form-fieldset form-impression">
+          <legend class="page-forms__form-legend">ВАше Общее впечатление:</legend>
+          <input type="radio" name="positive" id="positive" class="page-forms__form-input--radio" checked>
+          <label class="page-forms__label" for="positive">Скорее положительное</label>
+          <input type="radio" name="positive" id="negative" class="page-forms__form-input--radio">
+          <label class="page-forms__label" for="negative">Скорее отрицательное</label>
+          <input type="radio" name="positive" id="neutral" class="page-forms__form-input--radio">
+          <label class="page-forms__label" for="neutral">Затрудняюсь ответить</label>
+        </fieldset>
+        <fieldset class="page-forms_form-fieldset form-attractions">
+          <legend class="page-forms__form-legend">посещенные достопримечательности:</legend>
+          <input type="checkbox" name="bridge" id="bridge" class="page-forms__form-input--checkbox" checked>
+          <label class="page-forms__label" for="bridge">Мост Дьявола</label>
+          <input type="checkbox" name="mountain" id="mountain" class="page-forms__form-input--checkbox" checked>
+          <label class="page-forms__label" for="mountain">Гора-Колокол</label>
+          <input type="checkbox" name="slide-park" id="slide-park" class="page-forms__form-input--checkbox" checked>
+          <label class="page-forms__label" for="slide-park">Слайд-парк</label>
+          <input type="checkbox" name="rocks" id="rocks" class="page-forms__form-input--checkbox">
+          <label class="page-forms__label" for="rocks">Красные скалы</label>
+        </fieldset>
+        <fieldset class="page-forms_form-fieldset form-emotions">
+          <legend class="page-forms__form-legend">Опишите свои эмоции:</legend>
+          <textarea name="emotions" rows="3" class="page-forms__form-textarea" placeholder="Опишите подробно все свои восторги"></textarea>
+        </fieldset>
+        <button class="main-form__main-button"></button>
+      </form>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <section class="page-footer__footer-hashtag">
+      <a href="#" class="page-footer__hashtag">#visitSEDONA</a>
+    </section>
+    <ul class="page-footer__social">
+      <li class="social">
+        <a href="#" class="social__btn btn btn--twitter">Мы в твиттере</a>
+      </li>
+      <li class="social">
+        <a href="#" class="social__btn btn btn--facebook">Мы в фейсбуке</a>
+      </li>
+      <li class="social">
+        <a href="#" class="social__btn btn btn--youtube">Мы на youtube</a>
+      </li>
+    </ul>
+    <section class="page-footer__copyright">
+      <a href="#" class="page-footer__copyright-link"></a>
+      <img src="http://placehold.it/150x100" class="page-footer__copyright-logo">
+    </section>
+  </footer>
+</body>
+</html>
